@@ -1,5 +1,11 @@
+import { UiButton } from 'components/ui-button';
+
 const App = () => {
-  return <div>hello</div>;
+  return (
+    <UiButton variant="outline" size="lg">
+      add
+    </UiButton>
+  );
 };
 
 export default App;
